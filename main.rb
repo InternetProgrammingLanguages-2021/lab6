@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 # @param position [Integer]
-# @return value [Float]
+# @return [Float]
 def element(position)
-  (-1)**(position - 1) * Math.sin(position * 2) / position.to_f
+  (-1.0)**(position - 1) * Math.sin(position * 2.0) / position.to_f
 end
 
 # @param epsilon [Numeric]
